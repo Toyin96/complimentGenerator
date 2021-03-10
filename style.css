@@ -1,0 +1,54 @@
+.welcome-text p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 900px;
+    border: 3px solid black;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+
+button {
+    color:rgb(175, 172, 189);
+    border-radius: 50;
+    background-color: rgb(119, 50, 189);
+    width: auto;
+    padding: 10px;
+    height: auto;
+    align-content: center;
+    border: none;
+    font-size: 20px;
+    border-radius: 30%;
+}
+
+body{
+    justify-content: center;
+    min-height: 100vh;
+    background-color:darkcyan;
+    align-content: center;
+}
+
+.flex p{
+    background-color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    width: 65%;
+}
+
+button:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+

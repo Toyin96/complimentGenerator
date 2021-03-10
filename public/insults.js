@@ -1,15 +1,17 @@
-document
-  .querySelector(".request-complement")
+
+  document
+  .querySelector(".request-insult")
   .addEventListener("click", function() {
-    fetch("/complement")
+    fetch("/insult")
       .then(function(res) {
         return res.json();
       })
       .then(function(data) {
-        document.querySelector(".complement").innerText = data.complement;
+        document.querySelector(".insult").innerText = data.insult;
       })
       .catch(function(err) {
         console.error(err);
       });
   });
 
+ 
