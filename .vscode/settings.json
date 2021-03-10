@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1a811b4c-d819-4b84-a27f-742c605c05be/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/compliment-generator",
+    "appService.deploySubpath": "."
+}
